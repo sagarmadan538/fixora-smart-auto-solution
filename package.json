@@ -1,0 +1,16 @@
+{
+  "name": "fixora-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd fixora && npm start",
+    "dev": "cd fixora && npm run dev",
+    "seed": "cd fixora && npm run seed"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.17.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1"
+  }
+}
