@@ -1,0 +1,53 @@
+function About() {
+  return (
+    <section className="bg-black text-white py-24 px-6">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+        <div>
+          <h2 className="text-5xl font-bold text-red-500 mb-6">
+            About FIXORA
+          </h2>
+
+          <p className="text-gray-300 text-lg leading-8 mb-5">
+            FIXORA is Nepal's first smart vehicle service management platform
+            designed to connect vehicle owners, garages, workshops and service providers
+            through a single digital ecosystem.
+          </p>
+
+          <p className="text-gray-400 leading-8">
+            Our mission is to simplify vehicle maintenance, service booking,
+            repair tracking, digital invoicing and customer management using
+            modern technology.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 gap-6">
+
+          <div className="bg-gray-900 p-6 rounded-2xl text-center">
+            <h3 className="text-4xl font-bold text-red-500">500+</h3>
+            <p className="text-gray-400 mt-2">Customers</p>
+          </div>
+
+          <div className="bg-gray-900 p-6 rounded-2xl text-center">
+            <h3 className="text-4xl font-bold text-red-500">50+</h3>
+            <p className="text-gray-400 mt-2">Partner Garages</p>
+          </div>
+
+          <div className="bg-gray-900 p-6 rounded-2xl text-center">
+            <h3 className="text-4xl font-bold text-red-500">5000+</h3>
+            <p className="text-gray-400 mt-2">Completed Services</p>
+          </div>
+
+          <div className="bg-gray-900 p-6 rounded-2xl text-center">
+            <h3 className="text-4xl font-bold text-red-500">4.9★</h3>
+            <p className="text-gray-400 mt-2">Customer Rating</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
+}
+
+export default About;
